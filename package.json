@@ -1,0 +1,44 @@
+{
+  "name": "khkys_web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.4",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@faker-js/faker": "^7.6.0",
+    "@firebase/firestore": "^3.7.1",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/joy": "^5.0.0-alpha.43",
+    "@mui/material": "^5.10.3",
+    "@react-google-maps/api": "^2.12.2",
+    "@tauri-apps/api": "^1.0.2",
+    "@types/faker": "^6.6.9",
+    "@types/google-map-react": "^2.1.7",
+    "@types/react-router": "^5.1.18",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/recompose": "^0.30.10",
+    "chart.js": "^3.9.1",
+    "firebase": "^9.9.4",
+    "framer-motion": "^7.3.6",
+    "google-map-react": "^2.2.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
